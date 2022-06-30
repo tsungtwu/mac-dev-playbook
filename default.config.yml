@@ -37,30 +37,38 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
+  - autojump
+  - awscli
   - bash-completion
   - doxygen
+  - fzf
   - gettext
   - gifsicle
   - git
-  - github/gh/gh
   - go
   - gpg
   - httpie
+  - htop
   - iperf
+  - infracost
+  - jq
   - libevent
   - sqlite
   - mcrypt
+  - mtr
   - nmap
   - node
   - nvm
-  - php
   - ssh-copy-id
   - cowsay
   - readline
+  - rclone
   - openssl
   - pv
+  - tmux
   - wget
   - wrk
+  - zsh
   - zsh-history-substring-search
 
 homebrew_taps:
@@ -71,16 +79,12 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
   - docker
-  - dropbox
-  - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-ace
-  - slack
   - sublime-text
-  - transmit
-  - vagrant
+  - devtoys
+  - aws-vault
+  - dozer
+  - ngrok
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
